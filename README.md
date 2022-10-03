@@ -1,4 +1,10 @@
-# co2274297820a9405442e3a2a
+# Oldagram
+An instagram clone displaying single post with an image fetched from a JavaScript object.  
+Made as a solo project for the Essential CSS Concepts at Scrimba
+
+![image](https://user-images.githubusercontent.com/57393100/193562721-da2a34b5-8458-489a-bba8-fc88301d5d90.png)
+
+## Scrimba code: ```co2274297820a9405442e3a2a```
 
 ## About Scrimba
 
