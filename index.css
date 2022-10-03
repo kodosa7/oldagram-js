@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: darkslategrey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 5px 10px;
+}
+.container {
+    background: #fff;
+    color: black;
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo-img {
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.avatar-img {
+    width: 35px;
+    height: 35px;
+    border: 0px solid pink;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+
+.post {
+    width: 375px;
+}
+
+.post-header {
+    display: flex;
+    align-content:center;
+    flex-direction: row;
+    padding: 10px 3px;
+}
+
+.post-header-texts {
+    display: block;
+}
+
+.post-header-name {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.post-header-location {
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#post-img-el {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.post-footer {
+    background: white;
+    padding-bottom: 20px;
+
+}
+
+.post-footer-icons {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+.like-icon-img {
+    width: 30px;
+    padding: 20px 10px 10px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 300ms;
+}
+
+.post-avatar {
+    display: block;
+    align-content: center;
+    width: 40px;
+    border: 0px solid black;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.post-img {
+    background: url("images/post-vangogh.jpg");
+}
